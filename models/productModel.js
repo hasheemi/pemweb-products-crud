@@ -1,6 +1,6 @@
-const products = [
-    { id: 1, name: 'Buku', price: 15000 },
-    { id: 2, name: 'Pulpen', price: 5000 },
-];
+const { PrismaClient } = require('@prisma/client');
 
-module.exports = products;
+// Single PrismaClient instance shared across the app.
+const prisma = new PrismaClient();
+
+module.exports = prisma;

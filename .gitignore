@@ -26,3 +26,9 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+/generated/prisma
+.neon
+
+# Generated DB evidence (optional to commit)
+# evidence/
